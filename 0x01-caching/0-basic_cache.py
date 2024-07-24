@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Script for a basic module cache
 """
-from basic_caching import BaseCaching
+from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
@@ -19,4 +19,3 @@ class BasicCache(BaseCaching):
         """Retrieves an item by key.
         """
         return self.cache_data.get(key, None)
-
